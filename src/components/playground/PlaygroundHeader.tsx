@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { MdChatBubbleOutline } from "react-icons/md";
 import AddTokenModal from "./../auth/AddTokenModal";
+import gptdevImage from "gptdev.png";
 
 type Props = {};
 
@@ -11,7 +12,7 @@ export default function Header({}: Props) {
 
   return (
     <div className="z-50 flex h-[60px] flex-row items-center justify-between border-b border-gray-300 bg-white px-4">
-      <span className="text-lg font-bold">Playground</span>
+      <img src={gptdevImage} alt="GPTDev" className="h-6" />
 
       <div className="flex flex-row gap-x-4">
         <Link
