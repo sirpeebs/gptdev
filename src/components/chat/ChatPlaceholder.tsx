@@ -1,8 +1,7 @@
 import React from "react";
 import AddTokenModal from "./../auth/AddTokenModal";
 import Link from "next/link";
-import GithubStar from "./../misc/GithubStar";
-import gptdevImage from "../playground/gptdev.png";
+import gptdevImage from "src/playground/gptdev.png";
 
 type Props = {};
 
@@ -27,7 +26,7 @@ export default function ChatPlaceholder({}: Props) {
         </p>
 
         <div className="p-4">
-          <GithubStar />
+
         </div>
       </div>
     </div>
